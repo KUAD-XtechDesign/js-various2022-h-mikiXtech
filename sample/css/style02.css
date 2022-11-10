@@ -48,7 +48,7 @@ header{
 }
 
 .set{
-  background-color: #ccc;
+  background-color: rgb(46, 46, 46);
   min-height: 400px;
   margin-bottom: 40px;
 }
