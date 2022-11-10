@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+.contents p {
+  margin-bottom: 50px;
+}
+
+.image {
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  margin-bottom: 50px;
+}
+
+@media not all and (min-width: 600px){
+  .contents p {
+    margin-bottom: 30px;
+  }
+
+  .image {
+    margin-bottom: 30px;
+  }
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media not all and (min-width: 600px){
+  .image img {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+Run Pen
+
+
+Resources
