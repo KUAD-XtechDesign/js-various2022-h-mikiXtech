@@ -132,13 +132,13 @@ body{
 }
 
 #header{
-  position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
-  height: 100vh;/*高さを全画面にあわせる*/
+  position: relative;/
+  height: 100vh;/
 } 
 
 #video-area{
   position: fixed;
-  z-index: -1;/*最背面に設定*/
+  z-index: 1;
   top: 0;
   right:0;
   left:0;
@@ -147,8 +147,7 @@ body{
 }
 
 #video {
-  /*天地中央配置*/
-  position: absolute;
+  position: relative;
   z-index: -1;
   top: 50%;
   left: 50%;
