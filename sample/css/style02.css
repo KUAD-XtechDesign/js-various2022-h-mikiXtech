@@ -67,7 +67,7 @@ body.three #backimg03{
   height: 100%;
   top: 0;
   left: 0;
-  background: #020202;
+  background: #ffffff;
 }
 
 .backimg{
@@ -115,7 +115,7 @@ content{
 }
 
 .button{
-  background-color: #333;
+  background-color: rgb(251, 251, 251);
   padding: 10px;
   color: #fff;
   text-align: center;
