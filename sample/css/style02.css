@@ -92,44 +92,6 @@ img{
   height: 3px;
   background: linear-gradient(to right, blue,red);
 }
-#header{
-  position: relative;/
-  height: 100vh;
-} 
-
-#video-area{
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  right:0;
-  left:0;
-  bottom:0;
-  overflow: hidden;
-}
-
-content{
-  border: 1px solid rgb(255, 255, 255);
-  height: 300px;
-  font-size: 60px;
-  transition: 5s all;
-}
-
-.button{
-  background-color: rgb(251, 251, 251);
-  padding: 10px;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-#button:hover{
-  background-color: rgb(174, 59, 224);
-}
-
-body{
-  margin: 0;padding: 0;
-}
 
 #header{
   position: relative;/
@@ -147,12 +109,11 @@ body{
 }
 
 #video {
-  position: relative;
-  z-index: -1;
+  position: absolute;
+  z-index: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*縦横幅指定*/
   width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
   height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
   min-height: 100%;
