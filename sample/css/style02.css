@@ -162,7 +162,7 @@ body{
 
 
 .contents{
-  position: right;
+  position: relative;
   color: #fff;
   font-size: 50px;
 }
