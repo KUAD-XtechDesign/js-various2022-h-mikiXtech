@@ -94,7 +94,7 @@ img{
 }
 
 #header{
-  position: fixed;
+  position: absolute;
   height: 100vh;
 } 
 
