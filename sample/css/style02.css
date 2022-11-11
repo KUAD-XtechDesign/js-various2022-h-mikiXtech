@@ -135,7 +135,7 @@ h1{
 /*========= レイアウトのためのCSS ===============*/
 
 #container{
-background:#fff;
+background:rgb(40, 40, 40);
 padding:300px 0;
 text-align: center;
 }
