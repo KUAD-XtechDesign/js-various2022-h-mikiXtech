@@ -8,15 +8,17 @@ img{
   max-width: 100%;
 }
 
-header{
-  position: fixed;
+/* header
+------------------------------ */
+#header {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  z-index: 100;
-  top: 0;
+  background-color: #000000;
+}
+
+#header .wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 #wave{
@@ -48,7 +50,7 @@ header{
 }
 
 .set{
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
   min-height: 400px;
   margin-bottom: 40px;
 }
@@ -65,7 +67,7 @@ body.three #backimg03{
   height: 100%;
   top: 0;
   left: 0;
-  background: #fcfcfc;
+  background: #353535;
 }
 
 .backimg{
@@ -90,3 +92,53 @@ img{
   height: 3px;
   background: linear-gradient(to right, blue,red);
 }
+
+#header{
+  position: absolute;
+  height: 100vh;
+} 
+
+#video-area{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right:0;
+  left:0;
+  bottom:0;
+  overflow: hidden;
+}
+
+#video {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+  height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/*見出し設定*/
+h1{
+  /*要素の配置*/
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  /*見た目の調整*/
+  color:rgb(226, 224, 224);
+  text-shadow: 0 0 15px #666;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+#container{
+background:rgb(40, 40, 40);
+padding:300px 0;
+text-align: center;
+}
+
+
+

@@ -49,4 +49,14 @@ $(function(){
 
 
 
+
+
+  $("#btn1").on("click",function(){
+    $("#video").attr("src","./シーケンス　01 3.mp4");
+  })
+
+  $("#btn2").on("click",function(){
+    $("#video").attr("src",".シーケンス　01 3.mp4");
+  })
+
 })
