@@ -128,7 +128,7 @@ h1{
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   /*見た目の調整*/
-  color:#fff;
+  color:rgb(57, 56, 56);
   text-shadow: 0 0 15px #666;
 }
 
